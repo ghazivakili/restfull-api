@@ -5,8 +5,8 @@ from sqlalchemy import create_engine
 from json import dumps
 
 dbhost = '127.0.0.1'
-dbuser = 'root'
-dbpass = ''
+dbuser = '****'
+dbpass = '****'
 dbname = 'lanzi'
 
 db_connect = create_engine('mysql+pymysql://' + dbuser + ':' + dbpass + '@' + dbhost + '/' + dbname, pool_recycle=3600)
